@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Fancly</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="css/stylein.css" rel="stylesheet">
+    <link href="fonts/font.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <header>
+  <div class="container">
+    
+    <nav class="navbar  navbar-static-top nav2">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/fencly-footer-logo@2x.png" width="150"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          
+          <ul class="nav navbar-nav navbar-right">
+            
+            <li><a href="login.html">Login</a></li>
+            <li class="signup"><a href="signup.html">Sign up</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    </div>
+    </header>
+    
+    <section class="signup">
+     <div class="container">
+       
+     <div class="singup_inner">
+   
+        <ul class="nav nav-tabs">
+      <li class="active stab1"><a data-toggle="tab" href="#account">Account</a></li>
+      <li class="stab2"><a data-toggle="tab" href="#basiinfo">Basic Information</a></li>
+      <li class="stab3"><a data-toggle="tab" href="#billing">Billing</a></li>
+       <li class="stab4"><a data-toggle="tab" href="#submit">Submit</a></li>
+    </ul>
+        <div class="tab-content tabs_singup">
+                  <div class="tab-pane active" id="account">
+                      <h3>Lets get started!</h3>
+                      <div class="profile_img">
+                         <div class="profile_img2">
+                            <i class="ion-camera"></i>
+                           <!-- <img src="img/marcos-ramos-pic@2x.png">-->
+                         </div>
+                      </div>
+                      
+                      <div class="singup_fields">
+                         <div class="half_field">
+                           <input type="text" placeholder="First Name">
+                         </div>
+                         
+                         <div class="half_field2">
+                           <input type="text" placeholder="First Name">
+                         </div>
+                         <div class="clear"></div>
+                         <div class="full_field">
+                         <p class="field_error">please enter a valid email</p>
+                         <input type="email" placeholder="Email Address">
+                         </div>
+                         
+                          <div class="full_field">
+                          <p class="field_error">passwords don’t match or don’t have enough characters</p>
+                         <input type="password" placeholder="Enter Password ( 6 minimum character )">
+                         </div>
+                         
+                         
+                          <div class="full_field">
+                         <input type="password" placeholder="Confirm Password">
+                         </div>
+                         
+                         
+                         
+                      </div><!--fields-->
+                      
+                      <div class="singup_next next-step">
+                      <a href="#"><img src="img/arrow-right-icon@2x.png"></a>
+         
+                       </div>
+       
+                    
+       
+                  </div><!---->
+                  
+                   <div class="tab-pane" id="basiinfo">
+                     <h3>Welcome <b>Masoud!</b><br> Provide us with a bit of background.</h3>
+                        <div class="singup_fields basic">
+                         <div class="half_field">
+                           <input type="text" placeholder="First Name">
+                         </div>
+                         <div class="clear"></div>
+                          <div class="full_field">
+                         <p class="field_error">Please enter your address</p>
+                         <textarea  id="el" data-adaptheight rows="3" cols="40" placeholder="Address (use ENTER for a new line)" style="padding:4px; line-height: 1.5;"></textarea>
+                         </div>
+                         
+                         <div class="full_field">
+                         <p class="field_error">Please select a currency type</p>
+                           <select class="selectpicker">
+                              <option>Currency Default</option>
+                              <option>USD</option>
+                              <option>EUR</option>
+                              <option>AUD</option>
+                              <option>CAN</option>
+                           </select>
+                           
+
+
+
+
+                         </div>
+                         
+                         </div><!--fields-->
+                         
+                         <div class="singup_next next-step">
+                        <a href="#"><img src="img/arrow-right-icon@2x.png"></a>
+         
+                       </div>
+       
+                     <div class="singup_pre prev-step">
+                      <a href="#"><img src="img/arrow-left-icon@2x.png"></a>
+                       </div>
+                       
+                  </div><!---->
+                  
+                   <div class="tab-pane" id="billing">
+                   <h3>Add Credit Card info!<br>
+You can skip this portion if you like.</h3>
+
+<div class="singup_fields basic">
+                         <div class="half_field">
+                          <p class="field_error">Please enter your full name</p>
+                           <input type="text" placeholder="Full Name on Card">
+                         </div>
+                          <div class="half_field2">
+                          <p class="field_error">Please enter valid credit card</p>
+                           <input type="text" placeholder="Credit Card Number">
+                         </div>
+                         <div class="clear"></div>
+                         <div class="half_field3">
+                          <p class="field_error">Please enter EXP Month</p>
+                          <input type="text" placeholder="EXP Month">
+                         </div>
+                         <div class="half_field3">
+                          <p class="field_error">Please enter EXP Year</p>
+                          <input type="text" placeholder="EXP Year">
+                         </div>
+                         
+                         <div class="half_field4">
+                          <p class="field_error">Please enter CVC</p>
+                          <input type="text" placeholder="CVC">
+                         </div>
+                          <div class="clear"></div>
+                         
+                         
+                         
+                         </div>
+                         
+
+  <div class="singup_next next-step">
+                        <a href="#"><img src="img/arrow-right-icon@2x.png"></a>
+         
+                       </div>
+       
+                     <div class="singup_pre prev-step">
+                      <a href="#"><img src="img/arrow-left-icon@2x.png"></a>
+                       </div>
+                       
+                  </div><!---->
+                  <div class="tab-pane" id="submit">
+                    <h3>Overview</h3>
+                    <div class="profile_img2">
+                          
+                           <img src="img/marcos-ramos-pic@2x.png">
+                         </div>
+                         <div class="overview_singup">
+                          <h5>Masoud Ardestani</h5>
+                          <p>jeremy.abshire@yahoo.com</p>
+                          <hr>
+                          <h5>Masoud Knows LLC</h5>
+                          <div class="add_singup">
+                           <p>4245 Asher Way</p>
+                            <p>Berkeley, CA </p>
+                            <p>94116</p>
+                            </div>
+                            <p>Currency: USD</p>
+                            <hr>
+                            <label><img src="img/credit-card-sign-up-icon@2x.png" width="45">xxxx xxxx xxxx 1234</label>
+                         </div>
+                           
+       
+                     <div class="singup_pre prev-step">
+                      <a href="#"><img src="img/arrow-left-icon@2x.png"></a>
+                       </div>
+                       
+                       <div class="singup_next submit_signup">
+                        <input type="submit" onclick="window.location='account_verification.html';" >
+         
+                       </div>
+                       
+                       
+                  </div><!---->
+                  <div class="fileds_bottom">
+                          <p>By signing up you agree with the <br>
+<a href="#">Terms of Sevice</a> & <a href="#">Privacy Policy</a></p>
+                         </div>
+                  </div>
+                  
+                  
+   </div><!--tabs-->
+   
+  </div>
+  
+  
+  
+       
+     
+    </section> 
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    
+    
+    
+    
+<script>
+(function() {
+    function adjustHeight(textareaElement, minHeight) {
+        // compute the height difference which is caused by border and outline
+        var outerHeight = parseInt(window.getComputedStyle(el).height, 10);
+        var diff = outerHeight - el.clientHeight;
+
+        // set the height to 0 in case of it has to be shrinked
+        el.style.height = 0;
+
+        // set the correct height
+        // el.scrollHeight is the full height of the content, not just the visible part
+        el.style.height = Math.max(minHeight, el.scrollHeight + diff) + 'px';
+    }
+
+
+    // we use the "data-adaptheight" attribute as a marker
+    var textAreas = [].slice.call(document.querySelectorAll('textarea[data-adaptheight]'));
+
+    // iterate through all the textareas on the page
+    textAreas.forEach(function(el) {
+
+        // we need box-sizing: border-box, if the textarea has padding
+        el.style.boxSizing = el.style.mozBoxSizing = 'border-box';
+
+        // we don't need any scrollbars, do we? :)
+        el.style.overflowY = 'hidden';
+
+        // the minimum height initiated through the "rows" attribute
+        var minHeight = el.scrollHeight;
+
+        el.addEventListener('input', function() {
+            adjustHeight(el, minHeight);
+        });
+
+        // we have to readjust when window size changes (e.g. orientation change)
+        window.addEventListener('resize', function() {
+            adjustHeight(el, minHeight);
+        });
+
+        // we adjust height to the initial content
+        adjustHeight(el, minHeight);
+
+    });
+}());
+</script>
+
+<script>
+ $(document).ready(function () {
+    
+    
+    //Wizard
+    $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
+
+        var $target = $(e.target);
+    
+        if ($target.parent().hasClass('disabled')) {
+            return false;
+        }
+		
+    });
+
+    $(".next-step").click(function (e) {
+
+        var $active = $('.singup_inner .nav-tabs li.active');
+        $active.next().removeClass('disabled');
+        nextTab($active);
+
+    });
+    $(".prev-step").click(function (e) {
+
+        var $active = $('.singup_inner .nav-tabs li.active');
+        prevTab($active);
+
+    });
+});
+
+function nextTab(elem) {
+    $(elem).next().find('a[data-toggle="tab"]').click();
+}
+function prevTab(elem) {
+    $(elem).prev().find('a[data-toggle="tab"]').click();
+}
+
+</script>
+
+
+  </body>
+</html>
